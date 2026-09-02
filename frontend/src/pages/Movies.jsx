@@ -14,7 +14,7 @@ export default function Movies() {
     <div className="page">
       <div className="hero">
         <h1>Now showing</h1>
-        <p>Pick a film, choose a show, book seats. Demo data is already seeded.</p>
+        <p>Pick a film, choose a show, book seats.</p>
       </div>
       {error && <p className="alert">{error}</p>}
       <div className="grid">
